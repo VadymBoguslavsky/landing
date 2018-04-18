@@ -52,8 +52,8 @@
 	<section id="first" class="d-flex align-items-end">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-8 col-xs-12 col-md-5">
-					<div>
+				<div class="col-12 col-md-5">
+					<div class="box_wrapper">
 						<div class="row top_menu text-center ">
 							<span>WE ARE LEADING CONSULTING COMPANY </span>
 							<h2>CHOOSE YOUR INDUSTRY</h2>
@@ -125,12 +125,16 @@
 	<section id="steps">
 		<div class="container steps">
 			<div class="row text-left steps_media">
-				<div class="row">
+				
 					<div class="col-md-12 col-sm-12 col-12 steps_title ">
-						<p>OUR</p>
-						<h3>STEPS</h3>
+						<div class="row steps_main">
+							<div class="col-md-12">
+								<p>OUR</p>
+								<h3>STEPS</h3>
+							</div>
+						</div>
 					</div>
-				</div>
+				
 				<div class="row d-flex justify-content-between">
 					<div class="col-md-3 col-12 steps_items">
 						<img src="img/industryhand.png" class="img-fluid" alt="">
@@ -173,50 +177,49 @@
 						</div>
 					</div>
 				</div>
-					<div class="col-md-6 col-12" >
-							<a href="#" class="images_links ">
-								<p class="images_title">BANKING</p>
-								<img src="img/banking.png" class="img-fluid " alt="">
+				<div class="col-md-6 col-12 image_banking" >
+						<a href="#" class="images_links ">
+							<p class="images_name">BANKING</p>
+							<img src="img/banking.png" class="img-fluid"  alt="">
+							<div class="block">
+								<p>+</p>
+							</div>
+						</a>
+				</div>
+				<div class="col-md-6 images_group"  >
+					<div class="row images_media">
+						<div class="col-md-6 col-6">
+							<a href="#" class="images_links" >
+								<img src="img/1.png" class="img-fluid " alt="">
 								<div class="block">
 									<p>+</p>
 								</div>
 							</a>
-					</div>
-					<div class="col-md-6 " >
-						<div class="row images_media">
-							<div class="col-md-6 col-6">
-								<a href="#" class="images_links" >
-									<img src="img/1.png" class="img-fluid " alt="">
-									<div class="block">
-										<p>+</p>
-									</div>
-								</a>
-							</div>
-							<div class="col-md-6 col-6">
-								<a href="#" class="images_links">
-									<p class="images_title">TECHNOLOGY</p>
-									<img src="img/2.png" class="img-fluid " alt="">
-									<div class="block">
-										<p>+</p>
-									</div>
-								</a>
-							</div>
 						</div>
-						<div class="row images_margin">
-							<div class="col-md-12">
-								<a href="#" class="images_links">
-									<p class="images_title">REAL ESTATE</p>
-									<img src="img/3.png" class="img-fluid images_links" alt="">
-									<div class="block">
-										<p>+</p>
-									</div>
-								</a>
-							</div>
+						<div class="col-md-6 col-6">
+							<a href="#" class="images_links">
+								<p class="images_name">TECHNOLOGY</p>
+								<img src="img/2.png" class="img-fluid " alt="">
+								<div class="block">
+									<p>+</p>
+								</div>
+							</a>
 						</div>
 					</div>
-					
-				</div>	
-			</div>
+					<div class="row images_margin">
+						<div class="col-md-12">
+							<a href="#" class="images_links">
+								<p class="images_name">REAL ESTATE</p>
+								<img src="img/3.png" class="img-fluid images_links" alt="">
+								<div class="block">
+									<p>+</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>	
+		
 			<div class="row d-flex justify-content-center images_projects_btn">
 				<a class="btn btn-success btn-lg">FULL PROJECTS</a>
 			</div>
@@ -285,9 +288,9 @@
 
 		<div id="blog_wrapper" class="container-fluid ">
 			<div class="row">
-				<div class="col-md-6 " id="blog_item">
+				<div class="col-md-6 col-12" id="blog_item">
 				</div>
-				<div class="col-md-6" id="blog_image"></div>
+				<div class="col-md-6 col-12" id="blog_image"></div>
 				<div class="container" id="blog_item_priority" >
 					<div class="col-md-6 blog_text">
 						<div class="blog_news">
@@ -324,30 +327,46 @@
 
 	<section id="contact">
 		<div class="container">
+			<div class="col-md-12 contact__header">
+				<div class="row">
+					<div>
+						<p>FOR CONSULTING</p>
+						<h4>CONTАCT US</h4>
+					</div>
+				</div>
+			</div>
 			<div class="row">
-				<div class="col-md-12 contact__header">
-					<p>FOR CONSULTING</p>
-					<h4>CONTАCT US</h4>
-				</div>
-				<div class="col-md-4 col-sm-12 col-xs-12" >
+				<div class="contact_media" >
 					<div class="contact__info ">
-						<img src="img/icon_email.png" alt=""  class="contact__img img-fluid">
-						<span class="contact__name">EMAIL</span><br>
-						<span>info@consultplus.com</span>
+						<div>
+							<img src="img/icon_email.png" alt=""  class="contact__img img-fluid">
+						</div>
+						<div>
+							<span class="contact__name">EMAIL</span><br>
+							<span>info@consultplus.com</span>
+						</div>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-12 col-xs-12" >
+				<div class="contact_media" >
 					<div class="contact__info">
-						<img src="img/icon_call.png" alt=""  class="contact__img img-fluid">
-						<span class="contact__name">CALL US</span><br>
-						<span>+91 8879 8767 990</span>
+						<div>
+							<img src="img/icon_call.png" alt=""  class="contact__img img-fluid">
+						</div>
+						<div>
+							<span class="contact__name">CALL US</span><br>
+							<span>+91 8879 8767 990</span>
+						</div>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-12 col-xs-12">
+				<div class="contact_media">
 					<div  class="contact__info ">
-						<img src="img/icon_career.png" alt=""  class="contact__img img-fluid">
-						<span class="contact__name">CAREER</span><br>
-						<span>consult@career.com</span>
+						<div>		
+							<img src="img/icon_career.png" alt=""  class="contact__img img-fluid">
+						</div>
+						<div>
+							<span class="contact__name">CAREER</span><br>
+							<span>consult@career.com</span>
+						</div>
 					</div>					
 				</div>
 			</div>
@@ -361,12 +380,15 @@
 				<div class="col-md-6 col-12 news_letter__items">
 						<h5>NEWS LETTER</h5>
 						<p>Enter your email address to subscribe our notification of our new post & features on mail</p>
-						<div class="input-group mb-3 news_letter_form" >
-						  <input type="text" class="form-control" placeholder="EMAIL ADDRESS" aria-label="Search term" aria-describedby="basic-addon">
-						  <div class="input-group-append">
-						    <button class="btn btn-secondary" type="button">SUBSCRIBE</button>
-						  </div>
-						</div>
+						<form>
+							<div class="input-group mb-3 news_letter_form" >
+							  <input type="text" class="form-control" placeholder="EMAIL ADDRESS">
+							  <div class="input-group-append">
+							    <button class="btn btn-secondary" type="submit">SUBSCRIBE</button>
+							  </div>
+							</div>
+						</form>
+						
 				</div>
 				<div class="col-md-2 news_letter__items col-4">
 					<h5>NAVIGATION</h5>

@@ -20,7 +20,7 @@
 	background-color: #03b6e7;
 	padding: 40px;
 	position: relative;
-	
+	border:1px solid #00a6d3;
 }
 .top_menu_box:hover{
 	background-color:#00a6d3;
@@ -106,19 +106,25 @@
 	color: white !important ;
 }
 
+
+
 #steps{
 	background-color: #e7eff1;
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
-
+.steps_title{
+	margin-left: -15px; 
+}
 .steps_title p{
 	color: #898e8f;
-	margin-bottom: 0
+	margin-bottom: 0;
+
 }
 .steps_title h3{
 	color: #343a3b;
 	font-weight: bold;
+	
 }
 .steps_items p:nth-of-type(1){
 	color: #24d635;
@@ -196,7 +202,7 @@
 	border-left: 40px solid orange;
 }
 
-.images_title{
+.images_name{
 	border: 2px solid orange;
 	border-radius: 25px;
 	position: absolute;
@@ -204,11 +210,15 @@
 	left: 30px;
 	color: white;
 	width: 120px;
-  height: 30px;
-  text-align: center;
+  	height: 30px;
+  	text-align: center;
+}
+.images_group{
+	display: flex;
+	flex-direction: column;
 }
 .images_margin{
-	margin-top: 27px;
+	margin-top: auto;
 }
 
 
@@ -240,7 +250,9 @@
 	color: #a6ecff;
 }
 
-
+#contact{
+	margin-bottom: 80px;
+}
 
 .contact__header{
 	margin: 80px 0 20px 0; 
@@ -263,8 +275,11 @@
  .contact__info{
  	padding: 40px 0 30px 40px;
  	border: 1px solid #e1eaec;
- 	margin-bottom: 80px;
+ 	height: 100%;
  	overflow:hidden; 
+ 	display: flex;
+ 	flex-direction: row;
+ 	width: 100%; 
  }
  .contact__info span{
  	font-size: 20px;
@@ -275,7 +290,10 @@
 	font-weight: bold;
 
  }
- 
+ .contact_media{
+  	width: 32%;
+  	margin-left: 15px; 
+  }
 
 #blog_wrapper{
 	position: relative;
@@ -391,9 +409,14 @@
 
 @media screen and (max-width: 1200px) {
     .blog_news a {
-        display: inline-flex;
+        display: block;
         margin-top: 10px;
+        width: 170px;
     }
+    .images_margin{
+		margin-top: auto;
+}
+
 }
 @media screen and (max-width: 767px) {
 	#steps{
@@ -404,8 +427,6 @@
     }
     .steps_title{
     	text-align: center;
-    	position: relative !important;
-    	left: 210%;
     	margin-bottom: 40px;
     }
     .about_us_wrapper p{
@@ -437,4 +458,16 @@
 		text-align: center;
 		color: white;
 	}
+	.box_wrapper{
+		width: 100%;
+	}
+	.steps_main{
+		text-align: center;
+	}
+}
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+  .contact_media{
+  	width: 100%;
+  	margin-top: 15px; 
+  }
 }
