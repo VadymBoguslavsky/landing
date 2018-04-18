@@ -1,0 +1,28 @@
+{
+  "name": "homr",
+  "version": "1.0.0",
+  "description": "[Landing](https://vadymboguslavsky.github.io/landing/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VadymBoguslavsky/landing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VadymBoguslavsky/landing/issues"
+  },
+  "homepage": "https://github.com/VadymBoguslavsky/landing#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-cssmin": "^0.2.0"
+  },
+  "dependencies": {
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.4"
+  }
+}
