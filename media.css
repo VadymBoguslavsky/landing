@@ -1,0 +1,73 @@
+@media screen and (max-width: 767px) {
+	#steps{
+		padding-top: 170px;
+	}
+    .steps_media *{
+        text-align: center;
+    }
+    .steps_title{
+    	text-align: center;
+    	margin-bottom: 40px;
+    }
+    .about_us_wrapper p{
+    	text-align: center;
+    }
+	.about_us_text a{
+		margin: 25px auto;
+		position: relative;
+		right: 35%;
+	}
+
+	.images_media{
+		margin-top: 30px; 
+	}
+	.images_projects_btn{
+		margin-bottom: 25px; 
+	}
+	#testimonials{
+		text-align: center;
+	}
+
+	.blog_news span{
+		display: block;
+		color: white;
+		margin: 0
+	}
+	#blog_wrapper{
+		text-align: center;
+		color: white;
+	}
+	.blog_news a {
+        margin-top: 10px;
+		display: inline-block;        
+    }
+	.box_wrapper{
+		width: 100%;
+	}
+	.steps_main{
+		text-align: center;
+	}
+	.contact_media{
+  	width: 100%;
+  	margin-top: 15px; 
+  }
+  .images_margin{
+	margin-top: 29px;
+	}
+}
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+  .contact_media{
+  	width: 100%;
+  	margin-top: 15px; 
+  }
+  .about_us_image_years{
+		position: relative;
+		top:250px;
+	}
+	    .blog_news a {
+        display: block;
+        margin-top: 10px;
+        width: 170px;
+    }
+
+}
