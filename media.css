@@ -24,9 +24,7 @@
 	.images_projects_btn{
 		margin-bottom: 25px; 
 	}
-	#testimonials{
-		text-align: center;
-	}
+
 
 	.blog_news span{
 		display: block;
@@ -53,6 +51,10 @@
   }
   .images_margin{
 	margin-top: 29px;
+	}
+	.testimonial_clients{
+	margin-top: 20px;
+	text-align: center; 
 	}
 }
 @media screen and (max-width: 1200px) and (min-width: 768px) {
