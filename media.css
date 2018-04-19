@@ -24,8 +24,10 @@
 	.images_projects_btn{
 		margin-bottom: 25px; 
 	}
-
-
+ 
+	.top_menu_box_arrow{
+		display: none
+	}
 	.blog_news span{
 		display: block;
 		color: white;
@@ -66,10 +68,12 @@
 		position: relative;
 		top:250px;
 	}
-	    .blog_news a {
-        display: block;
-        margin-top: 10px;
-        width: 170px;
-    }
-
+  .blog_news a {
+    display: block;
+    margin-top: 10px;
+    width: 170px;
+	}
+	.top_menu_box_arrow{
+		display: none
+	}
 }
