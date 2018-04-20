@@ -225,7 +225,18 @@
 	border-bottom: 40px solid orange; 
 	border-left: 40px solid orange;
 }
-
+.images_text{
+	height: 100%;
+	position: absolute;
+	top: 50px; 
+	padding:0 30px 0 20px;
+	color: white; 
+	font-family: Domine
+}
+.images_text p:nth-of-type(1){
+	font-weight: bold;
+	margin-bottom: 0;
+}
 .images_name{
 	border: 2px solid orange;
 	border-radius: 25px;
@@ -366,9 +377,6 @@
 	color: #16d428;
 	font-weight: 700;
 }
-
-
-
 
 #contact{
 	margin-bottom: 80px;
