@@ -12,10 +12,12 @@
     .about_us_wrapper p{
     	text-align: center;
     }
-	.about_us_text a{
+    .about_us_text{
+    	text-align: center;
+    }
+	.about_us_button{
 		margin: 25px auto;
-		position: relative;
-		right: 35%;
+		width: 153px;
 	}
 
 	.images_media{
