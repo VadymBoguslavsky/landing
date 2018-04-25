@@ -1,4 +1,13 @@
 @media screen and (max-width: 767px) {
+	#first{
+		background: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	}
+	.sl_bg{
+		display: none;
+	}
 	#steps{
 		padding-top: 170px;
 	}
@@ -13,12 +22,18 @@
     .steps_title{
     	text-align: center;
     	margin-bottom: 40px;
+    	   margin-left: auto;
+    margin-right: auto
+    }
+    .steps_item_wrapper{
+    	flex-direction: column;
     }
     .about_us_wrapper p{
     	text-align: center;
     }
     .about_us_text{
     	text-align: center;
+    	
     }
 	.about_us_button{
 		margin: 25px auto;
@@ -51,6 +66,9 @@
 	.steps_main{
 		text-align: center;
 	}
+	#contact{
+		padding-right: 15px;
+	}
 	.contact_media{
   	width: 100%;
   	margin-top: 15px; 
@@ -58,6 +76,14 @@
   .images_margin{
 	margin-top: 29px;
 	}
+	.images_text {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    padding: 0 30px 0 20px;
+    color: white;
+    font-family: Domine,sans-serif;
+}
 	.testimonial_clients{
 	margin-top: 20px;
 	text-align: center; 
@@ -107,11 +133,20 @@
     bottom: 0;
     left: 6%;
 	}
+	.images_text {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    padding: 0 30px 0 20px;
+    color: white;
+    font-family: Domine,sans-serif;
+	}
 }
 @media screen and (max-width: 591px) {
-		.top_wrapper{
+	.top_wrapper{
     position: absolute;
     bottom: 0;
     left: 0;
 	}
+
 }
