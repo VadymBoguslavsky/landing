@@ -1,12 +1,87 @@
 #first {
     height: 700px;
-    background: url(img/bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
+    position: relative;
+}
+.top_wrapper{
+    position: absolute; bottom: 0;left: 20%;
+}
+.arrow_left{
+    top: 45%;
+    position: absolute;
+    z-index: 99999 ;
+    left: 0 ;
+    display: block ;
+    height: 100px ;
+    width: 25px ;
+    background-color: #262829;
 }
 
+.arrow_left:before{
+    content: url(img/arrow_left.png);
+    position: relative;
+    top: 40%;
+    left: 5px;
+}
+.arrow_right{
+    top: 45%;
+    position: absolute;
+    z-index: 99999 ;
+    right: 0px ;
+    display: block ;
+    height: 100px ;
+    width: 25px ;
+    background-color: #262829 ;
+}
+.arrow_right:before{
+    content: url(img/arrow_right.png);
+    position: relative;
+    top: 40%;
+    left: 8px;
+}
+.slick-frame {
+    visibility: hidden;
+}
+.slick-frame.slick-initialized {
+    visibility: visible;
+}
+.slick-slide img{
+    display: inline-block;
+}
+.slick-dots {
+    position: absolute;
+    width: 100px;
+    top: 0;
+    right: -50px;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+.slick-dots li button{
+    border: 2px solid white;
+    border-radius: 50%;
+    -webkit-transition:border-color .03s;
+    -o-transition:border-color .03s;
+    transition:border-color .03s;
+}
+.slick-dots li button:before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: white;
+    opacity: 1;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    margin: -5px 0 0 -5px;
+}
+.slick-dots li button:hover,
+.slick-dots li.slick-active button{
+border-color: #16d32c
+}
+.slick-dots li button:before:hover,
+.slick-dots li.slick-active button:before{
+border-color: #16d32c
+}
 .nav_padding {
     padding-right: 0 !important;
     padding-left: 0 !important;
@@ -142,7 +217,6 @@
 .about_us_image {
     background-image: url(img/aboutus.png);
     background-repeat: no-repeat;
-    position: absolute;
     background-size: cover;
 }
 

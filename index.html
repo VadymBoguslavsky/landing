@@ -9,6 +9,10 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Domine" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
 </head>
 
 
@@ -19,10 +23,14 @@
         <div class="container">
           <div class="row justify-content-end">
             <div>
-              <span class="header_info_contact">Email :</span>
-              <span class="header_info_number number_margin">info@consultplus.com</span>
-              <span class="header_info_contact">Phone :</span>
-              <span class="header_info_number"> +91 5685 666</span>
+              <span class="email_media number">
+                <span class="header_info_contact">Email :</span>
+                <span class="header_info_number number_margin">info@consultplus.com</span>
+              <span class="email_media">
+                <span class="header_info_contact">Phone :</span>
+                <span class="header_info_number"> +91 5685 666</span>
+              </span>
+              
             </div>
           </div>
         </div>
@@ -54,8 +62,23 @@
       </div>
     </header>
   </section>
-  <section id="first" class="d-flex align-items-end">
-    <div class="container">
+  <section id="first">
+    <div class="slider sl_bg">
+      <div class="sl__img">
+        <img src="img/bg.png" alt="">
+      </div>
+      <div class="sl_img">
+        <img src="img/bg.png" alt="">
+      </div>
+      <div>
+        <img src="img/bg.png" alt="">
+      </div>
+      <div>
+        <img src="img/bg.png" alt="">
+      </div>
+    </div>
+
+    <div class="container top_wrapper">
       <div class="row">
         <div class="col-12 col-md-7 col-lg-5">
           <div class="box_wrapper">
@@ -244,24 +267,40 @@
       <div class="row ">
         <div class="col-sm-12">
           <div class="row d-flex justify-content-start d-sm-flex">
-            <div class="col-md-3 col-sm-12  " >
-              <div class="testimonial_clients">
-                <img src="img/client1.png " class="testimonial__autor" alt="">
-                <p class="testimonial__autor_text">CLIENT NAME <br> Designation</p>
-              </div>
+            <div class="col-lg-11 slider_testimonial">
+              
+                <div class="testimonial_clients">
+                  <img src="img/client1.png " class="testimonial__autor" alt="">
+                  <p  class="testimonial__autor_text">CLIENT NAME <br> Designation</p>
+                </div>
+              
+                <div class="testimonial_clients">
+                  <img src="img/client1.png " class="testimonial__autor" alt="">
+                  <p  class="testimonial__autor_text">CLIENT NAME <br> Designation</p>
+                </div>
+                <div class="testimonial_clients">
+                  <img src="img/client1.png " class="testimonial__autor" alt="">
+                  <p  class="testimonial__autor_text">CLIENT NAME <br> Designation</p>
+                </div>
+              
+                <div class="testimonial_clients">
+                  <img src="img/client1.png " class="testimonial__autor" alt="">
+                  <p  class="testimonial__autor_text">CLIENT NAME <br> Designation</p>
+                </div>
+              
+              
+                <div class="testimonial_clients">
+                  <img src="img/client1.png " class="testimonial__autor" alt="">
+                  <p  class="testimonial__autor_text">CLIENT NAME <br> Designation</p>
+                </div>
+              
+                <div class="testimonial_clients">
+                  <img src="img/client1.png " class="testimonial__autor" alt="">
+                  <p class="testimonial__autor_text">CLIENT NAME <br> Designation</p>
+                </div>
+             
             </div>
-            <div class="col-md-3 col-sm-12 " >
-              <div  class="testimonial_clients">
-                <img src="img/client1.png " class="testimonial__autor" alt="">
-                <p class="testimonial__autor_text">CLIENT NAME <br> Designation</p>
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-12 " >
-              <div class="testimonial_clients">
-                <img src="img/client1.png" class="testimonial__autor" alt="">
-                <p class="testimonial__autor_text">CLIENT NAME <br> Designation</p>
-              </div>
-            </div>
+
           </div>
         </div>
       </div>
@@ -397,9 +436,10 @@
     </div>
   </section>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+  <script src="http://yastatic.net/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script src="js/js.js"></script>
 </body>
 </html>
