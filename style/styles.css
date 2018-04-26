@@ -173,7 +173,8 @@
   font-family: 'Domine', serif;
   line-height: 2;
   color: #838b8c;
-  font-size: 12pt; }
+  font-size: 12pt;
+  text-align: right; }
 
 .about__text_main_title {
   font-size: 28pt;
