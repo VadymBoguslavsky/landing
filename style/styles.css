@@ -332,7 +332,12 @@
   position: absolute;
   right: 0;
   top: 0; }
-
+.testimonial__clients{
+  opacity: 0.5;
+}
+.testimonial__clients:hover{
+  opacity: 1;
+}
 .testimonial__autor {
   display: inline-block;
   margin-right: 15px; }
