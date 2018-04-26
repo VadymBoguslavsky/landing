@@ -98,11 +98,10 @@
   list-style: none;
   text-align: center;
 	}
-	.top__wrapper{
+  .top__wrapper{
     position: absolute;
     bottom: 0;
-    left: 6%;
-	}
+  }
 }
 @media screen and (max-width: 1200px) and (min-width: 768px) {
   #first{
@@ -139,9 +138,8 @@
     text-align: center;
 	}
 	.top__wrapper{
-    position: absolute;
-    bottom: 0;
-    left: 6%;
+    position: relative;
+    bottom: -181px;
 	}
 	.images_text {
     height: 100%;
@@ -152,21 +150,7 @@
     font-family: Domine,sans-serif;
 	}
 }
-@media screen and (max-width: 591px) {
-	.top__wrapper{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-	}
 
-}
-@media screen and (max-width: 1442px) and (min-width: 1192px) {
-	.top__wrapper {
-    position: absolute;
-    bottom: 0;
-    left: 4%;
-	}
-}
 @media screen and (max-width: 1200px) and (min-width: 992px) {
   .slick-dots {
     position: absolute;
