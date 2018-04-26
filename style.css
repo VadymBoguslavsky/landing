@@ -73,9 +73,9 @@
     top: 50%;
     left: 50%;
     margin: -5px 0 0 -5px;
-    -webkit-transition:background .03s;
-    -o-transition:background .03s;
-    transition:background .03s;
+    -webkit-transition:background-color .03s;
+    -o-transition:background-color .03s;
+    transition:background-color .03s;
 }
 .slick-dots li button:hover,
 .slick-dots li.slick-active button{
@@ -84,7 +84,7 @@ border-color: #16d32c;
 .slick-dots li button:before:hover,
 .slick-dots li.slick-active button:before{
 border-color: #16d32c;
-background: #16d32c;
+background-color: #16d32c;
 }
 .nav_padding {
     padding-right: 0 !important;
@@ -235,10 +235,6 @@ background: #16d32c;
     background-color: #e7eff1;
     padding-top: 100px;
     padding-bottom: 100px;
-}
-
-.steps_title {
-    margin-left: 30px;
 }
 
 .steps_title p {
