@@ -1,6 +1,6 @@
 @media screen and (max-width: 767px) {
 	#first{
-		background: url(img/bg.png);
+		background: url(../img/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -16,34 +16,34 @@
 		text-align: left;
 		margin-right: 0;
 	}
-    .steps_media *{
+    .steps__media *{
         text-align: center;
     }
-    .steps_title{
+    .steps__title_wrapper{
     	text-align: center;
     	margin-bottom: 40px;
     	   margin-left: auto;
     margin-right: auto
     }
-    .steps_item_wrapper{
-    	flex-direction: column;
-    }
-    .about_us_wrapper p{
+		.steps__items{
+			text-align: center;
+		}
+    .about__wrapper p{
     	text-align: center;
     }
-    .about_us_text{
+    .about__text{
     	text-align: center;
     	
     }
-	.about_us_button{
+	.about__button{
 		margin: 25px auto;
 		width: 153px;
 	}
 
-	.images_media{
+	.images__group_media{
 		margin-top: 30px; 
 	}
-	.images_projects_btn{
+	.images__btn{
 		margin-bottom: 25px; 
 	}
  
@@ -57,19 +57,20 @@
 		color: white;
 	}
 	.blog_news a {
-        margin-top: 10px;
+    margin-top: 10px;
 		display: inline-block;        
     }
-	.box_wrapper{
+	.box__wrapper{
 		width: 100%;
+    opacity: 0.9;
 	}
-	.steps_main{
+	.steps__main__text{
 		text-align: center;
 	}
 	#contact{
 		padding-right: 15px;
 	}
-	.contact_media{
+	.contact__media{
   	width: 100%;
   	margin-top: 15px; 
   }
@@ -84,7 +85,7 @@
     color: white;
     font-family: Domine,sans-serif;
 }
-	.testimonial_clients{
+	.testimonial__clients{
 	margin-top: 20px;
 	text-align: center; 
 	}
@@ -97,18 +98,27 @@
   list-style: none;
   text-align: center;
 	}
-	.top_wrapper{
+	.top__wrapper{
     position: absolute;
     bottom: 0;
     left: 6%;
 	}
 }
 @media screen and (max-width: 1200px) and (min-width: 768px) {
-  .contact_media{
+  #first{
+    background: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .sl_bg{
+    display: none;
+  }
+  .contact__media{
   	width: 100%;
   	margin-top: 15px; 
   }
-  .about_us_image_years{
+  .about__image_years{
 		position: relative;
 		top:250px;
 	}
@@ -128,7 +138,7 @@
     list-style: none;
     text-align: center;
 	}
-	.top_wrapper{
+	.top__wrapper{
     position: absolute;
     bottom: 0;
     left: 6%;
@@ -143,10 +153,31 @@
 	}
 }
 @media screen and (max-width: 591px) {
-	.top_wrapper{
+	.top__wrapper{
     position: absolute;
     bottom: 0;
     left: 0;
 	}
 
 }
+@media screen and (max-width: 1442px) and (min-width: 1192px) {
+	.top__wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 4%;
+	}
+}
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+  .slick-dots {
+    position: absolute;
+    top:90px;
+    right: -74px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+  }
+}
+
