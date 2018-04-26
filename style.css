@@ -50,8 +50,8 @@
 .slick-dots {
     position: absolute;
     width: 100px;
-    top: 0;
-    right: -60px;
+    top: 15px;
+    right: -160px;
     margin: 0;
     list-style: none;
     text-align: center;
@@ -67,12 +67,15 @@
     content: "";
     width: 10px;
     height: 10px;
-    background: white;
+    background:white;
     opacity: 1;
     border-radius: 50%;
     top: 50%;
     left: 50%;
     margin: -5px 0 0 -5px;
+    -webkit-transition:background .03s;
+    -o-transition:background .03s;
+    transition:background .03s;
 }
 .slick-dots li button:hover,
 .slick-dots li.slick-active button{
@@ -81,6 +84,7 @@ border-color: #16d32c;
 .slick-dots li button:before:hover,
 .slick-dots li.slick-active button:before{
 border-color: #16d32c;
+background: #16d32c;
 }
 .nav_padding {
     padding-right: 0 !important;
@@ -391,13 +395,13 @@ border-color: #16d32c;
     background: white;
 }
 
-.testimonial:before {
+.slider_testimonial_text:before {
     content: url(img/firstquote.png);
     position: absolute;
     left: 0
 }
 
-.testimonial:after {
+.slider_testimonial_text:after {
     content: url(img/secondquote.png);
     position: absolute;
     right: 0;
