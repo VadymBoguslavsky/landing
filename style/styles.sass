@@ -16,11 +16,12 @@
     width: 25px 
     background-color: #262829
 
-.arrow_left:before
-    content: url(../img/arrow_left.png)
-    position: relative
-    top: 40%
-    left: 5px
+.arrow_left
+    &:before
+        content: url(../img/arrow_left.png)
+        position: relative
+        top: 40%
+        left: 5px
 
 .arrow_right
     top: 45%
@@ -32,20 +33,23 @@
     width: 25px
     background-color: #262829
 
-.arrow_right:before
-    content: url(../img/arrow_right.png)
-    position: relative
-    top: 40%
-    left: 8px
+.arrow_right
+    &:before
+        content: url(../img/arrow_right.png)
+        position: relative
+        top: 40%
+        left: 8px
 
 .slick-frame 
     visibility: hidden
 
-.slick-frame.slick-initialized 
-    visibility: visible
+.slick-frame
+    &.slick-initialized 
+        visibility: visible
 
-.slick-slide img
-    display: inline-block
+.slick-slide 
+    img
+        display: inline-block
 
 .slick-dots 
     position: absolute
@@ -108,14 +112,16 @@
 .number_margin 
     margin-right: 50px
 
-.title span 
-    display: block
+.title 
+    span 
+        display: block
 
-#menu-links a
-    color: #5a5a5a
-    font-weight: bold
-    font-family: Montserrat, sans-serif
-    margin-left: 10px
+#menu-links
+    a
+        color: #5a5a5a
+        font-weight: bold
+        font-family: Montserrat, sans-serif
+        margin-left: 10px
 
 #menu-links a:hover 
     color: #ffac56
@@ -130,20 +136,18 @@
     text-decoration: none
     display: block
 
-.top__menu__box:hover 
-    background-color: #00a6d3
-
-.top__menu__box:link 
-    color: white
-    text-decoration: none
-
-.top__menu__box:hover 
-    color: white
-    text-decoration: none
-
-.top__menu__box:visited 
-    color: white
-    text-decoration: none
+.top__menu__box
+    &:hover 
+        background-color: #00a6d3
+    &:link 
+        color: white
+        text-decoration: none
+    &:hover 
+        color: white
+        text-decoration: none
+    &:visited 
+        color: white
+        text-decoration: none
 
 .top__menu__box__button
     background-color: #16d428 !important
@@ -155,11 +159,13 @@
     padding: 20px
     color: white
 
-.top__menu span 
-    font-weight: bold
+.top__menu 
+    span 
+        font-weight: bold
 
-.top__menu h2 
-    font-weight: lighter
+.top__menu 
+    h2 
+        font-weight: lighter
 
 .top__menu__box__images 
     display: block
@@ -206,17 +212,20 @@
     padding-top: 100px
     padding-bottom: 100px
 
-.steps__title_wrapper p 
-    color: #898e8f
-    margin-bottom: 0
+.steps__title_wrapper 
+    p 
+        color: #898e8f
+        margin-bottom: 0
 
-.steps__title_wrapper h3 
-    color: #343a3b
-    font-weight: bold
+.steps__title_wrapper 
+    h3 
+        color: #343a3b
+        font-weight: bold
 
-.steps__items img 
-    width: 60px
-    height: 63px
+.steps__items 
+    img 
+        width: 60px
+        height: 63px
 
 .steps__items p:nth-of-type(1) 
     color: #24d635
@@ -241,9 +250,10 @@
     margin: 50px 0 120px 0
     color: white
 
-.images__btn a
-    border-radius: 25px
-    background-color: #16d428
+.images__btn 
+    a
+        border-radius: 25px
+        background-color: #16d428
 
 .images__text 
     color: #343a3b
@@ -321,25 +331,24 @@
     position: relative
     padding-right: 70px
     padding-left: 70px
+    &:after 
+        content: ""
+        margin: 20px 0 80px 0
+        display: block
+        width: 20px
+        height: 2px
+        background: white
 
-.underline:after 
-    content: ""
-    margin: 20px 0 80px 0
-    display: block
-    width: 20px
-    height: 2px
-    background: white
-
-.slider_testimonial_text:before
-    content: url(../img/firstquote.png)
-    position: absolute
-    left: 0
-
-.slider_testimonial_text:after 
-    content: url(../img/secondquote.png)
-    position: absolute
-    right: 0
-    top: 0
+.slider_testimonial_text
+    &:before
+        content: url(../img/firstquote.png)
+        position: absolute
+        left: 0
+    &:after 
+        content: url(../img/secondquote.png)
+        position: absolute
+        right: 0
+        top: 0
 
 .testimonial__autor
     display: inline-block
@@ -356,7 +365,12 @@
     font-weight: bold
     margin-bottom: 0
     color: #a6ecff
+.testimonial__clients
+    opacity: 0.5
 
+.testimonial__clients
+    &:hover
+        opacity: 1
 
 #blog_wrapper 
     position: relative
@@ -382,20 +396,23 @@
     margin: 100px 0 100px 0
 
 
-.blog_news p 
-    font-weight: bold
-    color: #898e8f
-    margin-bottom: 0
+.blog_news 
+    p 
+        font-weight: bold
+        color: #898e8f
+        margin-bottom: 0
 
-.blog_news span
-    font-weight: bold
-    font-size: 25px
-    color: #343a3b
-    margin-right: 40px
+.blog_news 
+    span
+        font-weight: bold
+        font-size: 25px
+        color: #343a3b
+        margin-right: 40px
 
-.blog_text h5 
-    font-family: 'Montserrat', sans-serif
-    font-weight: bold
+.blog_text 
+    h5 
+        font-family: 'Montserrat', sans-serif
+        font-weight: bold
 
 .blog_text_news p:nth-of-type(2) 
     color: #838b8c
@@ -431,15 +448,17 @@
 .contact__header 
     margin: 80px 0 20px 0
 
-.contact__header p 
-    font-size: 15px
-    font-weight: bold
-    margin-bottom: 0
-    color: #898e8f
+.contact__header 
+    p 
+        font-size: 15px
+        font-weight: bold
+        margin-bottom: 0
+        color: #898e8f
 
-.contact__header h4
-    font-size: 28px
-    font-weight: bold
+.contact__header 
+    h4
+        font-size: 28px
+        font-weight: bold
 
 .contact__img
     float: left
@@ -455,9 +474,10 @@
     flex-direction: row
     width: 100%
 
-.contact__info span 
-    font-size: 20px
-    margin-left: 40px
+.contact__info 
+    span 
+        font-size: 20px
+        margin-left: 40px
 
 .contact__name 
     font-size: 25px
@@ -475,32 +495,37 @@
     color: white
     overflow: hidden
 
-.news__items a 
-    color: #45494a
-    display: block
+.news__items 
+    a 
+        color: #45494a
+        display: block
 
-.news__items p 
-    color: #45494a
-    display: block
+.news__items 
+    p 
+        color: #45494a
+        display: block
 
-.news__form input 
-    border-top-left-radius: 25px
-    border-bottom-left-radius: 25px
-    background-color: #323334
-    border-color: transparent
-    height: 50px
+.news__form 
+    input 
+        border-top-left-radius: 25px
+        border-bottom-left-radius: 25px
+        background-color: #323334
+        border-color: transparent
+        height: 50px
 
-.news__form input[placeholder] 
-    padding-left: 30px
+.news__form 
+    input[placeholder] 
+        padding-left: 30px
 
-.news__form button 
-    border-top-right-radius: 25px
-    border-bottom-right-radius: 25px
-    border-top-left-radius: 25px !important
-    border-bottom-left-radius: 25px !important
-    position: relative
-    right: 15px
-    border-color: transparent
-    background-color: #16d428
-    width: 157px
+.news__form 
+    button 
+        border-top-right-radius: 25px
+        border-bottom-right-radius: 25px
+        border-top-left-radius: 25px !important
+        border-bottom-left-radius: 25px !important
+        position: relative
+        right: 15px
+        border-color: transparent
+        background-color: #16d428
+        width: 157px
 
